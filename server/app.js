@@ -11,8 +11,10 @@ config();
 
 const app = express();
 
+const allowedOrigins = process.env.CORS_ORIGIN;
+
 app.use(express.json());
-app.use(cors());
+app.use(cors(allowedOrigins));
 app.use(morgan("dev"));
 app.use(helmet());
 
