@@ -1,0 +1,151 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark: #070724;
+  --color-white: #ffffff;
+  --color-dark-light: #38384f;
+
+  --color-blue-soft: #419ebb;
+  --color-orange: #eda249;
+  --color-purple: #6f2ed6;
+  --color-red: #d14c32;
+  --color-red-soft: #d83a34;
+  --color-orange-dark: #cd5120;
+  --color-green: #1ec2a4;
+  --color-blue: #2d68f0;
+
+  --font-sans: "Antonio";
+  --font-sans-s: "League Spartan";
+}
+
+@utilities {
+}
+
+.main {
+  background-image: url("/assets/background-stars.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.heading-h1 {
+  font-family: var(--font-sans), sans-serif;
+  font-size: 80px;
+  line-height: 103px;
+}
+.heading-h2 {
+  font-family: var(--font-sans), sans-serif;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: -0.015em;
+}
+.heading-h3 {
+  font-family: var(--font-sans-s), sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+}
+.heading-h4 {
+  font-family: var(--font-sans-s), sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.body-text {
+  font-family: var(--font-sans-s), sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.hover-border-mercury:hover::before {
+  background-color: #def4fc;
+}
+.hover-border-venus:hover::before {
+  background-color: #f7cc7f;
+}
+.hover-border-earth:hover::before {
+  background-color: #545bfe;
+}
+.hover-border-mars:hover::before {
+  background-color: #ff6a45;
+}
+.hover-border-jupiter:hover::before {
+  background-color: #ecad7a;
+}
+.hover-border-saturn:hover::before {
+  background-color: #fccb6b;
+}
+.hover-border-uranus:hover::before {
+  background-color: #65f0d5;
+}
+.hover-border-neptune:hover::before {
+  background-color: #497efa;
+}
+
+.bg-mercury {
+  background-color: #419ebb;
+}
+
+.border-mercury {
+  border-color: #419ebb;
+}
+
+.bg-venus {
+  background-color: #f7cc7f;
+}
+
+.border-venus {
+  border-color: #f7cc7f;
+}
+
+.bg-earth {
+  background-color: #545bfe;
+}
+
+.border-earth {
+  border-color: #545bfe;
+}
+
+.bg-mars {
+  background-color: #ff6a45;
+}
+
+.border-mars {
+  border-color: #ff6a45;
+}
+
+.bg-jupiter {
+  background-color: #ecad7a;
+}
+
+.border-jupiter {
+  border-color: #ecad7a;
+}
+
+.bg-saturn {
+  background-color: #fccb6b;
+}
+
+.border-saturn {
+  border-color: #fccb6b;
+}
+
+.bg-uranus {
+  background-color: #65f0d5;
+}
+
+.border-uranus {
+  border-color: #65f0d5;
+}
+
+.bg-neptune {
+  background-color: #497efa;
+}
+
+.border-neptune {
+  border-color: #497efa;
+}
